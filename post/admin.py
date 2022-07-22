@@ -1,0 +1,16 @@
+from django.contrib import admin
+from . import models
+from .models import UserPostStatus
+
+admin.site.register(models.SkillSet)
+admin.site.register(models.JobPostSkillSet)
+admin.site.register(models.JobType)
+
+admin.site.register(models.JobPost)
+admin.site.register(models.Company)
+admin.site.register(models.CompanyBusinessArea)
+admin.site.register(models.BusinessArea)
+admin.site.register(models.JobPostActivity)
+admin.site.register(UserPostStatus)
+
+admin.site.register(models.ApplyStatus)
